@@ -2,16 +2,6 @@
 
 Dokumentasi pkl - Membuat web
 
-untuk direktorinya ialah (direktori ini harus disimpan di file htdocs pada file XAMPP)
-projectku/
-│
-├── backend/
-│   ├── file php untuk menghubungkan ke database
-|
-├── publik/
-|   ├── folder css
-|   |   ├── file css
-|   ├── folder js
-|   |   ├── file js
-│   ├── file html
-|   ├── beranda.php
+(direktori ini harus disimpan di file htdocs pada file XAMPP)
+file php harus dipisah dari file html dan css
+untuk css dan js harus berada di dalam folder yang sama dengan file html
