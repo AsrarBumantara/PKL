@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tentang Kami — Situs Contoh</title>
+    <!-- Link ke file CSS terpisah -->
+    <link rel="stylesheet" href="Css/about.css">
+</head>
+<body>
+    <div class="container">
+        <header style="text-align:center;">
+            <h1>Tentang Kami</h1>
+            <nav aria-label="Navigasi utama">
+                <a href="beranda.php">Home</a>
+                <a href="about.html" aria-current="page">About</a>
+                <a href="history.html">History</a>
+                <a href="profile.html">Profile</a>
+            </nav>
+        </header>
+
+        <main>
+            <section aria-labelledby="who-we-are">
+                <h3 id="who-we-are">Siapa Kami</h3>
+                <p>
+                    Kami adalah tim pengembang dan kreator yang menyukai desain sederhana namun ramah pengguna.
+                    Situs ini dibuat sebagai contoh template untuk belajar HTML & CSS dengan tampilan modern
+                    dan ringan. Kami percaya desain yang bersih membantu pengunjung fokus pada konten.
+                </p>
+            </section>
+
+            <section aria-labelledby="vision">
+                <h3 id="vision">Visi & Misi</h3>
+                <p><strong>Visi:</strong> Menjadi referensi desain sederhana untuk pembelajar web.</p>
+                <p><strong>Misi:</strong> Menyediakan contoh praktis, dokumentasi ringkas, dan komponen yang mudah dimodifikasi.</p>
+            </section>
+
+            <section aria-labelledby="team">
+                <h3 id="team">Tim Kami</h3>
+                <img src="https://tse2.mm.bing.net/th/id/OIP.9-ztEh2cP5yXPJJ36zkKFwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Foto tim (placeholder)">
+                <p class="p2">
+                    Terdiri dari desainer, frontend developer, dan backend. aselole
+                </p>
+            </section>
+
+            <section aria-labelledby="values">
+                <h3 id="values">Nilai Inti</h3>
+                <ul>
+                    <li>Kesederhanaan — membuat antarmuka yang mudah dipahami.</li>
+                    <li>Keterbukaan — semua contoh bebas dipakai dan dimodifikasi.</li>
+                    <li>Belajar bersama — dokumentasi ringkas dan contoh praktis.</li>
+                </ul>
+            </section>
+
+            <section aria-labelledby="contact">
+                <h3 id="contact">Kontak</h3>
+                <p>
+                    Punya saran atau ingin kolaborasi? Kirim email ke <a href="Ahok.com">ahok@contoh.com</a>
+                    atau gunakan formulir kontak di halaman <a href="profile.html">Profile</a>.
+                </p>
+            </section>
+
+            <section aria-labelledby="faq">
+                <h3 id="faq">FAQ Singkat</h3>
+                <p><strong>T: Bisa pakai CSS ini untuk proyek saya?</strong><br>
+                   J: Boleh — semua kode dikembangkan untuk mudah diadaptasi.</p>
+
+                <p><strong>T: Gimana cara ganti warna latar?</strong><br>
+                   J: Ubah nilai <code>linear-gradient</code> di bagian <code>body</code> pada about.css.</p>
+            </section>
+        </main>
+
+        <footer style="text-align:center; margin-top:18px;">
+            <p>© <span id="year"></span> Situs Agung & bagas. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script src="Script/Interactive.js"></script>
+</body>
+</html>

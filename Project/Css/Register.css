@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=90');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed; 
+    color: #333;
+    line-height: 1.6;
+}
+
+form{
+    border: 1px solid whitesmoke;
+    width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 125px;
+    margin-bottom: 15px;
+}
+input{
+    margin: 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+a{
+    color: teal ;
+}
+button{
+    border: 1px solid black;
+    padding: 10px;
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgb(255, 0, 0) ;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: white;
+    margin-top: 20px;
+}
+
+h4{
+    margin: 20px auto;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    border: 1px solid whitesmoke;
+    width: 330px;
+    margin: 10px auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h3{
+    margin: 10px;
+}
+
+.button:hover {background-color: #000000}
+
+button:active {
+  background-color: #1100ff;
+  box-shadow: 0 5px #666;
+  transform:rotateY('10');
+}
+button:hover{
+    background-color: red;
+    color: #fff;
+    transform: scale(1.05);
+}
+input:hover{
+    background-color: white;
+    color: #fff;
+    transform: scale(1.05);
+}
+.loginaja{
+    text-decoration: none;
+    font-weight: bold;
+}

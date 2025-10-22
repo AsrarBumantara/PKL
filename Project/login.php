@@ -1,0 +1,32 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="./Css/Login.css">
+    <title>Login</title>
+</head>
+<body>
+    <form id="loginForm" action="../Backend/simpanlogin.php" method="post">
+        <center>
+            <h3>Form Login</h3>
+        </center>
+        <h6>Email atau Username</h6>
+        <input type="text" name="email" id="email" placeholder="Masukan username atau email" required>
+        <h6>Password</h6>
+        <input type="password" name="password" id="password" placeholder="Masukan password" required>
+        <input type="hidden" name="csrf_token" value="<?php echo isset($_SESSION['csrf_token']) ? $_SESSION['csrf_token'] : ''; ?>">
+        <center><button type="submit">Login</button></center>
+    </form>
+    <center>
+        <h4>Atau</h4>
+    </center>
+    <div class="opsi">
+        <center>
+            <p>Belum punya akun? <a href="Register.html" class="buatakun">Buat Akun</a></p>
+        </center>
+    </div>
+    <!--<script src="./Script/Interactive.js"></script>-->
+</body>
+</html>
