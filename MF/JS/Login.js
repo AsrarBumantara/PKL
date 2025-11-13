@@ -31,7 +31,7 @@ submit.addEventListener("click", function (event) {
       // Signed up
       const user = userCredential.user;
       alert("login successfuly");
-      window.location.href = "Register.html";
+      window.location.href = "beranda.html";
       // ...
     })
     .catch((error) => {
