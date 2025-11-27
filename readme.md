@@ -1,1 +1,1 @@
-untuk mengakses url yang dideploy memakai https://asrarbumantara.github.io/MF/Publik/login.html
+untuk mengakses url yang dideploy bisa dilihat menu deployment pada kanan bawah (jika ingin langsung ke appsnya tambahkan folder MF lalu ke Publik pilih Register atau login)
